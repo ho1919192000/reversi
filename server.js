@@ -4,7 +4,7 @@ var static = require('node-static');
 var http = require('http');
 /*Assume that we are running on Heroku*/
 var port = process.env.PORT;
-var directory = __dirname + 'public';
+var directory = __dirname + '/public';
 
 /*If we aren't on Heroku, then we need to read just the port and directory information and we know that because port won't be set*/
 if (typeof port == 'undefined' || !port) {
