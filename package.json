@@ -1,0 +1,26 @@
+{
+  "name": "reversi",
+  "version": "1.0.0",
+  "description": "This is a game of reversi",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ho1919192000/reversi.git"
+  },
+  "keywords": [
+    "reversi"
+  ],
+  "author": "Howard Huang",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ho1919192000/reversi/issues"
+  },
+  "homepage": "https://github.com/ho1919192000/reversi#readme",
+  "dependencies": {
+    "node-static": "^0.7.9",
+    "socket.io": "^2.0.1"
+  }
+}
