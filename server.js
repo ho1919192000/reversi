@@ -20,8 +20,7 @@ var app = http.createServer(
     function (request, response) {
         request.addListener('end', function () {
             file.serve(request, response);
-        }
-                           ).resume();
+        }).resume();
     }
 ).listen(port);
 
